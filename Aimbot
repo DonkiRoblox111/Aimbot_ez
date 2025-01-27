@@ -2,14 +2,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 
        local Window = MakeWindow({
          Hub = {
-         Title = "DonkiRobloxYT",
-         Animation = "SubAndLike"
+         Title = "Donki Roblox",
+         Animation = "Subscribe Đi"
          },
         Key = {
         KeySystem = true,
-        Title = "DonkiRobloxYT",
-        Description = "SubAndLikeDonki",
-        KeyLink = "",
+        Title = "[ Donki Roblox] By Bao",
+        Description = "Sài Vui Vẻ",
+        KeyLink = "https://jpst.it/475CU",
         Keys = {"SubAndLike"},
         Notifi = {
         Notifications = true,
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=76393484442124",
+       Image = "http://www.roblox.com/asset/?id=103985507475473",
        Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -30,7 +30,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Skibidii"})
+     local Tab1o = MakeTab({Name = "AimBott"})
     AddButton(Tab1o, {
      Name = "AimBot 100%",
     Callback = function()
